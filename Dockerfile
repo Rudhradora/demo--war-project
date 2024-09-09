@@ -8,7 +8,7 @@ RUN mv apache-tomcat-9.0.93 apache-tomcat
 RUN rm apache-tomcat-9.0.93.zip
 WORKDIR /opt/tomcat/apache-tomcat/webapps
 RUN mkdir webproject
-COPY target/web-demo.war /opt/tomcat/apache-tomcat/webapps/webproject
+COPY target/web-demo.war /opt/tomcat/apache-tomcat/webapps
 EXPOSE 8080
 RUN chmod =+x /opt/tomcat/apache-tomcat/bin/catalina.sh
 ENTRYPOINT ["/opt/tomcat/apache-tomcat/bin/catalina.sh","run"]
