@@ -10,5 +10,5 @@ WORKDIR /opt/tomcat/apache-tomcat/webapps
 RUN mkdir webproject
 COPY target/web-demo.war /opt/tomcat/apache-tomcat/webapps/webproject
 EXPOSE 8080
-RUN chmod =777 /opt/tomcat/apache-tomcat/bin/catalina.sh
+RUN chmod =+x /opt/tomcat/apache-tomcat/bin/catalina.sh
 ENTRYPOINT ["/opt/tomcat/apache-tomcat/bin/catalina.sh","run"]
