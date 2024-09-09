@@ -2,11 +2,11 @@
         <head>
            <title>AboutPage</title>
         </head>
-        <body style="background-color:orange">
+        <body style="background-color:yellow">
                 <a href="index.jsp">
                         HomePage
                 </a>
-                <h1 align="center">Sai-Kumar</h1>
+                <h1 align="center">Anky</h1>
                 <h2 align="center">From Devops Class</h2>
         </body>
 </html>
