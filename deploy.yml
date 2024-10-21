@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: anky-tomcat-cont
-        image: ankyassasin/tomg
+        image: ankyassasin/tomcat
         ports:
         - containerPort: 8080
