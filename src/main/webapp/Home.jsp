@@ -1,13 +1,20 @@
+<!DOCTYPE html>
 <html>
-        <head>
-           <title>HomePage</title>
-        </head>
-        <body style="background-color:yellow">
-                <a href="index.jsp">
-                        IndexPage
-                </a>
-                <h1 align="center">Anky I achieved through CI/CD</h1>
-                <h2 align="center">From Devops Class</h2>
-                <h3 align="center">Server 1.0</h3>
-        </body>
+<head>
+    <title>Mahendra Login</title>
+    <link rel="stylesheet" href="styles.css"> </head>
+<body>
+    <div class="login-container">
+        <h1>Facebook Login</h1>
+        <form action="login.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
 </html>
